@@ -1,0 +1,57 @@
+<div class="w-full bg-warmstory">
+  <nav class="border-gray-200">
+    <div class="container flex flex-wrap items-center justify-between mx-auto">
+      <div class="flex">
+        <%= link_to root_path do%>
+          <%= image_tag 'logo.webp', class: "w-40 md:m-6 lg:m-8" %>
+        <% end %>
+      <p class="hidden mx-4 text-xs text-center md:flex md:flex-col md:justify-center">用一段挑選婚戒的時光<br>讓愛情定格在沸騰的那一刻</p>
+      </div>
+      <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+        <ul class="flex flex-col mx-10 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+          <li>
+            <button id="dropdownNavbarLink" data-dropdown-toggle="wings" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto">婚戒 <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+            <!-- Dropdown menu -->
+            <div id="wings" class="z-10 hidden w-48 my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow lg:p-4">
+                <ul class="py-1 text-sm" aria-labelledby="dropdownLargeButton">
+                  <li class="m-2"><%= link_to "婚戒商品","#", class:"" %></li>
+                  <li class="m-2"><%= link_to "從他的樣貌選擇婚戒","#", class:"w-full" %></li>
+                </ul>
+            </div>
+          </li>
+          <li>
+            <button id="dropdownNavbarLink" data-dropdown-toggle="diamond" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto">鑽石系列 <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+            <!-- Dropdown menu -->
+            <div id="diamond" class="z-10 hidden w-48 my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow lg:p-4">
+                <ul class="py-1 text-sm" aria-labelledby="dropdownLargeButton">
+                  <li class="m-2"><%= link_to "Rose Flame121鑽石","#", class:"" %></li>
+                  <li class="m-2"><%= link_to "GIA培育鑽石","#", class:"w-full" %></li>
+                </ul>
+            </div>
+          </li>
+          <li>
+            <button id="dropdownNavbarLink" data-dropdown-toggle="services" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto">恆溫的服務 <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+            <!-- Dropdown menu -->
+            <div id="services" class="z-10 hidden w-48 my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow lg:p-4">
+                <ul class="py-1 text-sm" aria-labelledby="dropdownLargeButton">
+                  <li class="m-2"><%= link_to "給戀人的一紙情書","#", class:"" %></li>
+                  <li class="m-2"><%= link_to "婚戒故事書","#", class:"w-full" %></li>
+                  <li class="m-2"><%= link_to "求婚戒租賃0元企劃","#", class:"w-full" %></li>
+                </ul>
+            </div>
+          </li>
+          <li>
+          <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">售後服務</a>
+          </li>
+          <li>
+          <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">預約諮詢</a>
+          </li>
+          <li>
+          <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">關於我們</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+</div>
+
